@@ -1,59 +1,71 @@
-<div class="game-container">
-  <!-- Game Thumbnail Image -->
-  <img class="game-thumb" src="https://unsplash.com" alt="Play Game">
+<div class="xbox-card">
+  <!-- Xbox Logo Header Graphic -->
+  <div class="xbox-banner">
+    <span class="xbox-badge">XBOX CLOUD GAMING</span>
+  </div>
   
-  <div class="game-details">
-    <h3>Play Game on Cloud</h3>
-    <p>Launch the full unblocked version directly via now.gg.</p>
+  <div class="xbox-body">
+    <h3>Launch Xbox Cloud Play</h3>
+    <p>Stream hundreds of console games directly from your browser. Requires an Xbox Game Pass Ultimate account.</p>
     
-    <!-- Change the href link below to your exact now.gg game URL -->
-    <a class="play-btn" href="https://now.gg" target="_blank" rel="noopener noreferrer">
-      Play Now 🚀
+    <!-- Change this href link if you want to link to a specific game page -->
+    <a class="xbox-btn" href="https://xbox.com" target="_blank" rel="noopener noreferrer">
+      Launch Cloud Stream 🎮
     </a>
   </div>
 </div>
 
 <style>
-  .game-container {
-    max-width: 350px;
-    border: 2px solid #333;
-    border-radius: 12px;
+  .xbox-card {
+    max-width: 360px;
+    border: 1px solid #222;
+    border-radius: 8px;
     overflow: hidden;
-    font-family: Arial, sans-serif;
-    background-color: #1a1a1a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #101010;
     color: #fff;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
   }
-  .game-thumb {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
+  .xbox-banner {
+    background-color: #107c10; /* Official Xbox Green */
+    padding: 25px 20px;
+    text-align: left;
   }
-  .game-details {
-    padding: 20px;
+  .xbox-badge {
+    background: rgba(25px, 25px, 25px, 0.2);
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
   }
-  .game-details h3 {
-    margin: 0 0 10px 0;
-    font-size: 20px;
+  .xbox-body {
+    padding: 24px;
   }
-  .game-details p {
-    font-size: 14px;
-    color: #aaa;
-    margin-bottom: 20px;
+  .xbox-body h3 {
+    margin: 0 0 8px 0;
+    font-size: 22px;
+    font-weight: 600;
   }
-  .play-btn {
-    display: inline-block;
-    background-color: #ff4757;
+  .xbox-body p {
+    font-size: 13px;
+    color: #919191;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+  .xbox-btn {
+    display: block;
+    background-color: #107c10;
     color: white;
-    padding: 12px 30px;
+    text-align: center;
+    padding: 12px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 25px;
-    transition: background 0.2s, transform 0.1s;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
   }
-  .play-btn:hover {
-    background-color: #ff6b81;
-    transform: scale(1.05);
+  .xbox-btn:hover {
+    background-color: #1a9c1a;
   }
 </style>
